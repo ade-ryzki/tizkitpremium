@@ -1,0 +1,5 @@
+@media (max-width: 576px) {
+    .movie-container-desc .movie-title {
+        text-align: center;
+    }
+}
