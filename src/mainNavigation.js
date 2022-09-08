@@ -25,10 +25,10 @@ const MainNavigation = () => {
           {/* Auth PrivateRoute*/}
         <Route path="/admin" element={<PrivateRoute><DashboardAdmin/></PrivateRoute>}/>
         <Route path="/admin/movie" element={<PrivateRoute><DashboardAdmin/></PrivateRoute>}/>
+        <Route path="/profile" element={<PrivateRoute><Profile/></PrivateRoute>}/>
         <Route path="/detail" element={<PrivateRoute><Detail/></PrivateRoute>}/>
         <Route path="/booking" element={<PrivateRoute><Booking/></PrivateRoute>}/>
         <Route path="/payment" element={<PrivateRoute><Payment/></PrivateRoute>}/>
-        <Route path="/profile" element={<PrivateRoute><Profile/></PrivateRoute>}/>
         {/* <Route path="/sign-up" element={<SignUp />} /> */}
     </Routes>
     </BrowserRouter>
