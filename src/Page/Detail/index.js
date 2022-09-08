@@ -4,8 +4,21 @@ import hiflix from "../../img/logo-hiflix.svg";
 import cine from "../../img/logo-cine-one.svg";
 import ebv from "../../img/logo-edu.svg";
 import Footer from "../../Component/Footer";
+import { useDispatch, useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
+import { useEffect } from 'react';
 
 function Detail() {
+    const dispatch = useDispatch();
+    const navigate = useNavigate(); //coment
+    const { data, error, loading } = useSelector((state) => state.movie); //coment
+    const { isSignIn } = useSelector((state) => state.auth); //coment
+    useEffect(() => {
+      if (isSignIn === false) {
+        // change == to ===
+        navigate("/sign-in", { replace: true });
+      }
+    }, [isSignIn]);
     return(
         <>
             <Navbar />

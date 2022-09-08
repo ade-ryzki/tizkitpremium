@@ -1,7 +1,21 @@
 import Navbar from "../../Component/Navbar"
 import pp from "../../img/pp.jpeg";
+import { useDispatch, useSelector } from "react-redux";
+import { Navigate, useNavigate } from "react-router-dom";
+import { useEffect } from 'react';
 
 function Profile() {
+    const dispatch = useDispatch();
+    const navigate = useNavigate(); //coment
+    // const { data, error, loading } = useSelector((state) => state.movie); //coment
+    const { isSignIn } = useSelector((state) => state.auth); //coment
+    useEffect(() => {
+      if (isSignIn === false) {
+        // change == to ===
+        navigate("/sign-in", { replace: true });
+      }
+    }, [isSignIn]);
+
     return(
         <>
             <Navbar />

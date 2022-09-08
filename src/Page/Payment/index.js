@@ -9,8 +9,22 @@ import bri from "../../img/bank-bri.svg";
 import ovo from "../../img/logo-ovo.svg";
 import { Link } from 'react-router-dom';
 import Footer from "../../Component/Footer";
+import { useDispatch, useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
+import { useEffect } from 'react';
+
 
 function ListMovie() {
+    const dispatch = useDispatch();
+    const navigate = useNavigate(); //coment
+    const { data, error, loading } = useSelector((state) => state.movie); //coment
+    const { isSignIn } = useSelector((state) => state.auth); //coment
+    useEffect(() => {
+      if (isSignIn === false) {
+        // change == to ===
+        navigate("/sign-in", { replace: true });
+      }
+    }, [isSignIn]);
     return(
         <>
             <Navbar />

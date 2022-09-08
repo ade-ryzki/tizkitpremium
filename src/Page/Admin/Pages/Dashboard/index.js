@@ -16,7 +16,6 @@ export const DashboardAdmin = () => {
       navigate("/sign-in", { replace: true });
     }
   }, [isSignIn]);
-  console.log(data);
 
   return (
     <>
