@@ -34,7 +34,10 @@ npm install
 ```sh
 npm start
 ```
-  
+5. Website
+```sh
+tizkitpremium.vercel.app
+```  
 # Features Application
 - [x] Home.
 - [x] Detail.
