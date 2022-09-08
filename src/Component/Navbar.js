@@ -29,8 +29,8 @@ function Navbar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/list-movie">
-                  <div className="nav-link active bold">List movie</div>
+                <Link to="/profile">
+                  <div className="nav-link active bold">Profile</div>
                 </Link>
               </li>
             </ul>
@@ -49,7 +49,8 @@ function Navbar() {
             ) : (
               <Link to="/sign-Up">
                 {" "}
-                <button className="btn btn-primary">Sign Up</button>{" "}
+                <button className="btn btn-primary">Sign Up</button>
+                {" "}
               </Link>
             )}
           </Link>
