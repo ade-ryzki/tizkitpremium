@@ -86,7 +86,7 @@ function Post3() {
                   />
                   <h1>{movie.title}</h1>
                   <p>{movie.genre}</p>
-                  <a href="details.html" className="btn-details" style={{alignContent:'center'}}>
+                  <a href="detail" className="btn-details" style={{alignContent:'center'}}>
                     Details
                   </a>
                 </div>

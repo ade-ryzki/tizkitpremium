@@ -3,6 +3,8 @@ import { DashboardAdmin, MoviesAdmin, CinemaAdmin } from './Page/Admin';
 import {Home, ListMovie, MovieDetail, SignUp, SignIn} from './Page'
 import PrivateRoute from "./route/PrivateRoute";
 import PublicRoute from './route/PublicRoute';
+import Detail from './Page/Detail/index';
+import Booking from './Page/Booking/index';
 
 const MainNavigation = () => {
   return (
@@ -16,6 +18,8 @@ const MainNavigation = () => {
       </Route>
         {/* Auth PublicRoute*/}
         <Route path="/" element={<PublicRoute ><Home/></PublicRoute>}/>
+        <Route path="/detail" element={<PublicRoute ><Detail/></PublicRoute>}/>
+        <Route path="/booking" element={<PublicRoute ><Booking/></PublicRoute>}/>
         <Route path="/Sign-In" element={<PublicRoute isRestricted={true}><SignIn/></PublicRoute>}/>
         <Route path="/sign-up" element={<PublicRoute isRestricted={true}><SignUp/></PublicRoute>}/>
           {/* Auth PrivateRoute*/}
