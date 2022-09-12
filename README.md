@@ -40,11 +40,15 @@ tizkitpremium.vercel.app
 ```  
 # Features Application
 - [x] Home.
+- [x] Admin.
 - [x] Detail.
 - [x] Booking.
 - [x] Profile.
 - [x] Notification.
+- [x] Payment.
 - [x] Search.
+- [x] Login.
+- [x] Register.
 ## Screenshots  
 
   

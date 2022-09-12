@@ -7,11 +7,11 @@ import { GetMovie } from "../../../redux/actions/Movie";
 function Post2() {
   const dispatch = useDispatch();
   useEffect(() => {
-    dispatch(GetMovie({ page: 1, limit: 10 })); // change zero object
+    dispatch(GetMovie({ page: 1, limit: 10 }));
   }, []);
 
   const data = useSelector((state) => state.movie);
-  console.log(data.data.results, "test data");
+  // console.log(data.data.results, "test data");
 
   return (
     <div className="now-showing">
@@ -33,7 +33,6 @@ function Post2() {
             <div className="card-movie" key={index}>
               <img
                 className="card-movie-list"
-                //insatll. env
                 src={`${process.env.REACT_APP_NOWSHOWING}/${movie.image}`}
                 alt={movie.title}
                 title={movie.title}

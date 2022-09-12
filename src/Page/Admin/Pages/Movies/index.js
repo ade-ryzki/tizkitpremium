@@ -1,31 +1,23 @@
-import axios from 'axios'
-import React, { useEffect, useState } from 'react'
+import React, { useEffect} from 'react'
 import MetaTags from '../../Component/Metatags'
 import { Sidebar } from '../../Component/Sidebar'
-import Swal from 'sweetalert2'
-import moment from 'moment'
-import NavbarLogin from './../../../../Component/NavbarLogin'
 import { useDispatch } from 'react-redux'
-
-// import { GetMovie } from './../../../../redux/actions/Movie';
-// import { Navbar } from '../../Component/NavbarAdmin'
-import { useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { GetMovie } from '../../../../redux/actions/Movie'
+import Navbar from './../../../../Component/NavbarLogOut';
 
 export const MoviesAdmin = () => {
     const dispatch = useDispatch();
     useEffect(() => {
-      dispatch(GetMovie({ page: 1, limit: 10 })); // change zero object
+      dispatch(GetMovie({ page: 1, limit: 10 }));
     }, []);
   
     const data = useSelector((state) => state.movie);
-    // console.log(data.data.results, "test data");
 
     return (
     <>
         <MetaTags title="Tickitz - Movie Admin" />
-        <NavbarLogin />
+        <Navbar/>
         <div className='container'>
             <div className='row'>
                 <div className='col-4'>

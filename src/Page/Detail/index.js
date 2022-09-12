@@ -13,12 +13,13 @@ function Detail() {
     const navigate = useNavigate(); //coment
     const { data, error, loading } = useSelector((state) => state.movie); //coment
     const { isSignIn } = useSelector((state) => state.auth); //coment
+
     useEffect(() => {
       if (isSignIn === false) {
-        // change == to ===
         navigate("/sign-in", { replace: true });
       }
     }, [isSignIn]);
+    
     return(
         <>
             <Navbar />

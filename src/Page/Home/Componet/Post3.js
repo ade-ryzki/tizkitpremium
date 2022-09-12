@@ -14,7 +14,7 @@ function Post3() {
   }, []);
 
   const data = useSelector((state) => state.movie);
-  console.log(data.data.results, "test data");
+  // console.log(data.data.results, "test data");
   return (
     <section className="upcoming-movies">
       <div className="container">
