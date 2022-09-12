@@ -19,7 +19,7 @@
   
 1. Clone this repos (Tickitz)
 ```sh
-git clone https://github.com/ade-ryzki/responsinve_web_Tickitz
+git clone https://github.com/ade-ryzki/tizkitpremium.git
 ```
 2. Go To Folder Repo
 ```sh
