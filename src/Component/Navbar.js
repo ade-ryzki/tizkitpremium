@@ -61,14 +61,19 @@ function Navbar() {
           <div className="navbar-brand" href="#">
             <img src={tickitz} alt="logo-tickitz" />
           </div>
-          <div
+          <Link to="/sign-Up">
+               
+                <button className="btn btn-primary">Sign Up</button>
+                
+              </Link>
+          {/* <div
             className="hamburger-button d-flex flex-column align-items-end"
             id="navbarNav"
           >
-            <div className="line mb-1"></div>
+            <div className="line mb-1">login</div>
             <div className="line-2 mb-1"></div>
             <div className="line"></div>
-          </div>
+          </div> */}
         </div>
       </nav>
     </>
