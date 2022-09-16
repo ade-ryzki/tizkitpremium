@@ -13,6 +13,7 @@
   
 ---
 [![Netlify Status](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](tizkitpremium.vercel.app)
+[![Vercel Status](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](tizkitpremium.vercel.app)
 ## Getting Started
   
 ### Installation
