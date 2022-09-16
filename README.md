@@ -12,7 +12,7 @@
 # About :
   
 ---
-[![Netlify Status](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://tizkitpremium.vercel.app/)
+[![Vercel Status](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://tizkitpremium.vercel.app/)
 ## Getting Started
   
 ### Installation
@@ -34,10 +34,7 @@ npm install
 ```sh
 npm start
 ```
-5. Website
-```sh
-tizkitpremium.vercel.app
-```  
+
 # Features Application
 - [x] Home.
 - [x] Admin.
