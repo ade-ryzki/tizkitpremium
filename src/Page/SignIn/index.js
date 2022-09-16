@@ -111,6 +111,13 @@ const SignIn=(props)=> {
                   </Link>
                 </div>
               </div>
+              <div className="d-sm-block d-md-none">
+              <div className="d-flex justify-content-center mt-4">
+                  <Link to='/' className="btn btn-login-external py-3">
+                    <img src="./icon/back.png" alt="Google" />
+                  </Link>
+                </div>
+              </div>
               {/* Desktop */}
               <div className="d-none d-md-block">
                 <div className="d-flex justify-content-between mt-4">
@@ -120,6 +127,13 @@ const SignIn=(props)=> {
                   <Link to='' className="btn btn-login-external py-3">
                     <img src="./icon/ic-facebook.png" alt="fb" />
                     Facebook
+                  </Link>
+                </div>
+              </div>
+              <div className="d-none d-md-block">
+                <div className="d-flex justify-content-center mt-4">
+                  <Link to='/' className="btn btn-login-external py-3">
+                    <img src="./icon/back.png" alt="Google" />Back to Home
                   </Link>
                 </div>
               </div>

@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.08712c57.css",
+    "main.js": "/static/js/main.293eaad3.js",
+    "static/media/pp.jpeg": "/static/media/pp.bc11ea13a2579ca3f479.jpeg",
+    "static/media/spiderman.png": "/static/media/spiderman.f78cbb3dfdc0c28f1535.png",
+    "static/media/the witches.png": "/static/media/the witches.901e426e996cf64c911a.png",
+    "static/media/Tenet.png": "/static/media/Tenet.7cc128777cf06d0d5949.png",
+    "static/media/lion-header.png": "/static/media/lion-header.42b217be2dba88c224d8.png",
+    "static/media/header2.png": "/static/media/header2.21404269d922b7081c22.png",
+    "static/media/black-widow.png": "/static/media/black-widow.f6ea5e3e5c6b2353110d.png",
+    "static/media/spiderman-header.png": "/static/media/spiderman-header.8638a7259c10ea013a6d.png",
+    "static/media/logo-dana.svg": "/static/media/logo-dana.42d4c8ed3fc1cdd639977153f18ece79.svg",
+    "static/media/logo-cine-one.svg": "/static/media/logo-cine-one.4887fc6ff9e9ba86c75a9b6cf2b6317a.svg",
+    "static/media/logo-gopay.svg": "/static/media/logo-gopay.9d110cfb0994f07ac912bba66a8f1f20.svg",
+    "static/media/bank-bca.svg": "/static/media/bank-bca.643e0dd4942c720aa90e7984e3622cc0.svg",
+    "static/media/logo-hiflix.svg": "/static/media/logo-hiflix.0163f3bd54be157d888896bff29f88ad.svg",
+    "static/media/tickitz-white.svg": "/static/media/tickitz-white.ef1d2d700499e34cb5bc81af523965d5.svg",
+    "static/media/Tickitz.svg": "/static/media/Tickitz.a9b5264e95e94c75c6f79263d18586cb.svg",
+    "static/media/logo-edu.svg": "/static/media/logo-edu.e5e4942ec9318704fab2bfeff9935bdf.svg",
+    "static/media/bank-bri.svg": "/static/media/bank-bri.ff3602c7640694a6cec3f36d342ea170.svg",
+    "static/media/logo-tickitz2.svg": "/static/media/logo-tickitz2.beaa5273e9e3cc18dd39902c5f648baf.svg",
+    "static/media/logos_google-pay.svg": "/static/media/logos_google-pay.67dc5fcb0e358b37cf1a42d21a6429b8.svg",
+    "static/media/instagram.svg": "/static/media/instagram.8e43b8cd16e938bacb07c7321e638774.svg",
+    "static/media/logos_paypal.svg": "/static/media/logos_paypal.b91f465ee8d9c95e2733127de4abc3fd.svg",
+    "static/media/twitter.svg": "/static/media/twitter.c418c3672b3c373f6ac89af7b22e3527.svg",
+    "static/media/facebook.svg": "/static/media/facebook.4f19496288061c18ae6e73d589fcf0bb.svg",
+    "static/media/logos_visa.svg": "/static/media/logos_visa.c2a7d4d1c9f83db96ecd2fdb69e2ba17.svg",
+    "static/media/logo-ovo.svg": "/static/media/logo-ovo.fcebcece06bb733b7673ebee85e7c26e.svg",
+    "index.html": "/index.html",
+    "static/media/youtube.svg": "/static/media/youtube.66269dbf2966cfc054c7dd3b1bd9f1b6.svg",
+    "main.08712c57.css.map": "/static/css/main.08712c57.css.map",
+    "main.293eaad3.js.map": "/static/js/main.293eaad3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08712c57.css",
+    "static/js/main.293eaad3.js"
+  ]
+}

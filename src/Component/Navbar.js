@@ -49,8 +49,7 @@ function Navbar() {
             ) : (
               <Link to="/sign-Up">
                 {" "}
-                <button className="btn btn-primary">Sign Up</button>
-                {" "}
+                <button className="btn btn-primary">Sign Up</button>{" "}
               </Link>
             )}
           </Link>
@@ -61,19 +60,71 @@ function Navbar() {
           <div className="navbar-brand" href="#">
             <img src={tickitz} alt="logo-tickitz" />
           </div>
-          <Link to="/sign-Up">
-               
-                <button className="btn btn-primary">Sign Up</button>
-                
-              </Link>
-          {/* <div
-            className="hamburger-button d-flex flex-column align-items-end"
-            id="navbarNav"
+          <button
+            className="navbar-toggler "
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-            <div className="line mb-1">login</div>
-            <div className="line-2 mb-1"></div>
-            <div className="line"></div>
-          </div> */}
+            <span className="navbar-toggler-icon" />
+          </button>
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+              <form className="d-flex form-search mt-5 mb-4">
+                <button type="submit">
+                  <i className="fa fa-search px-3 py-3"></i>
+                </button>
+                <input
+                  className="form-control"
+                  type="search"
+                  placeholder="Search..."
+                  aria-label="Search"
+                />
+              </form>
+              <hr />
+              <li className="nav-item">
+                <Link to="/sign-in">
+                  {isSignIn ? (
+                    <button
+                      className="btn btn-primary"
+                      onClick={() => {
+                        dispatch(AuthLogOut());
+                      }}
+                    >
+                      Log Out
+                    </button>
+                  ) : (
+                    <Link to="/sign-Up">
+                      {" "}
+                      <button className="btn btn-primary">Sign Up</button>{" "}
+                    </Link>
+                  )}
+                </Link>
+              </li>
+              <hr />
+              <li className="nav-item">
+                <Link to="/">
+                  <div className="nav-link active bold">Home</div>
+                </Link>
+              </li>
+              <hr />
+              <li className="nav-item">
+                <Link to="/profile">
+                  <div className="nav-link active bold">Profile</div>
+                </Link>
+              </li>
+              <hr />
+
+              <li className="nav-item mt-5">
+                <a className="nav-link" href="#">
+                  &copy; 2022 Tickitz • Created Bye Ade
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </>
